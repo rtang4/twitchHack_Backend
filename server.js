@@ -4,6 +4,19 @@ var request = require('request')
 var path = require('path')
 var app = express();
 var axios = require('axios')
+const cors = require('cors');
+
+//app.use(cors());
+
+app.use(cors({
+  origin: '*',
+  credentials: true
+}));
+
+//test
+app.get('/', (req,res) => {
+  res.send('working');
+});
 
 app.get('/searchSong', function(req,res){
   let q = req.query.song //REMEMBER THIS!!
