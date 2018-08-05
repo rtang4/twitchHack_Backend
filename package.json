@@ -1,0 +1,28 @@
+{
+  "name": "twitchhack_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtang4/twitchHack_Backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rtang4/twitchHack_Backend/issues"
+  },
+  "homepage": "https://github.com/rtang4/twitchHack_Backend#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "nodemon": "^1.18.3",
+    "path": "^0.12.7",
+    "request": "^2.87.0"
+  }
+}
